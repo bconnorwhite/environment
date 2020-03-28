@@ -11,8 +11,8 @@ yarn add @bconnorwhite/environment
 ```
 ## API
 ```ts
-isProduction: boolean
-isDevelopment: boolean
+isProduction: boolean;
+isDevelopment: boolean;
 environment: "development" | "production";
 ```
 ```js
