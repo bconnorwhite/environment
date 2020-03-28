@@ -1,6 +1,6 @@
 {
   "name": "@bconnorwhite/environment",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A utility for checking node environment",
   "main": "./build/index.js",
   "author": "Connor White",
@@ -9,7 +9,7 @@
     "build": "bob build"
   },
   "devDependencies": {
-    "@bconnorwhite/bob": "^1.0.2",
+    "@bconnorwhite/bob": "^1.0.4",
     "@types/node": "^13.9.5"
   }
 }
