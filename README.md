@@ -10,10 +10,10 @@ A utility for checking node environment
 yarn add @bconnorwhite/environment
 ```
 ## API
-```ts
-isProduction: boolean;
-isDevelopment: boolean;
-environment: "development" | "production";
-```
 ```js
 import environment, { isProduction, isDevelopment } from "@bconnorwhite/environment";
+
+// environment: "development" | "production";
+// isProduction: boolean;
+// isDevelopment: boolean;
+```
