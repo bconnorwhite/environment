@@ -10,9 +10,11 @@ yarn add @bconnorwhite/environment
 ```
 ## API
 ```js
-import environment, { isProduction, isDevelopment, getEnvironment } from "@bconnorwhite/environment";
+import environment, { inProduction, inDevelopment, isProduction, isDevelopment, getEnvironment } from "@bconnorwhite/environment";
 
 // environment: "development" | "production";
+// inProduction: boolean;
+// inDevelopment: boolean;
 // getEnvironment: (env?: string) => "development" | "production";
 // isProduction: (env?: string) => boolean;
 // isDevelopment: (env?: string) => boolean;

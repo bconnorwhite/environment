@@ -15,4 +15,8 @@ export function isDevelopment(environment?: string) {
 
 const environment = getEnvironment();
 
+export const inProduction = isProduction();
+
+export const inDevelopment = isDevelopment();
+
 export default environment;
