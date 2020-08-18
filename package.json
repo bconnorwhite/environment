@@ -1,7 +1,7 @@
 {
   "name": "@bconnorwhite/environment",
   "version": "1.0.2",
-  "description": "A utility for checking node environment",
+  "description": "A utility for checking node environment.",
   "main": "./build/index.js",
   "author": "Connor White",
   "license": "MIT",
@@ -10,7 +10,7 @@
     "prepublishOnly": "yarn build"
   },
   "devDependencies": {
-    "@bconnorwhite/bob": "^1.4.1",
-    "@types/node": "^14.0.24"
+    "@bconnorwhite/bob": "^1.9.3",
+    "@types/node": "^14.0.27"
   }
 }
