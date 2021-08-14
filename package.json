@@ -1,6 +1,6 @@
 {
   "name": "@bconnorwhite/environment",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "A utility for checking node environment.",
   "main": "./build/index.js",
   "author": "Connor White",
